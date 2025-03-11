@@ -37,6 +37,7 @@ The game doesn’t end until one of the players loses all their lives. At this p
     - behaviour:
       - generate: 2 random numbers and gets sum
       - ask_question(player): returns a string with the question
+      - correct? check if ans is correct
 
 
   3. Game Class

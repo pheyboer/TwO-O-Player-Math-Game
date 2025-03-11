@@ -18,14 +18,14 @@ class Player
 end
 
 # testing
-player = Player.new("Test Player")
-puts player.lives == 3 ? "✅ Initial lives test passed" : "❌ Initial lives test failed"
+# player = Player.new("Test Player")
+# puts player.lives == 3 ? "✅ Initial lives test passed" : "❌ Initial lives test failed"
 
-player.lose_life
-puts player.lives == 2 ? "✅ Lose life test passed" : "❌ Lose life test failed"
+# player.lose_life
+# puts player.lives == 2 ? "✅ Lose life test passed" : "❌ Lose life test failed"
 
-puts player.alive? == true ? "✅ Alive test passed" : "❌ Alive test failed"
+# puts player.alive? == true ? "✅ Alive test passed" : "❌ Alive test failed"
 
-player.lose_life
-player.lose_life
-puts player.alive? == false ? "✅ Dead test passed" : "❌ Dead test failed"
+# player.lose_life
+# player.lose_life
+# puts player.alive? == false ? "✅ Dead test passed" : "❌ Dead test failed"
