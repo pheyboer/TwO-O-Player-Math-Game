@@ -13,6 +13,28 @@ The game doesn’t end until one of the players loses all their lives. At this p
 -  Each class should be defined in its own rb file. You should not put any other code outside the class definition
 
 - Nouns for classes:
-  - Player
-  - Question
-  - Game
+  - Player Class
+  - Question Class
+  - Game Class
+
+- Roles and Responsibilities
+  1. Player Class
+    - player in the game, tracks lives and manages state
+    - state: 
+      - name
+      - lives (total 3)
+    - behaviour (method):
+      - lose_life: decrease lives by 1
+      - alive? checks if there are lives left (/3)
+
+
+  2. Question Class
+    - random generated math question (by picking two numbers between 1 and 20)
+    - state:
+      - num1: random number 1
+      - num2: random number 2
+    - behaviour:
+
+
+
+  3. Game Class
