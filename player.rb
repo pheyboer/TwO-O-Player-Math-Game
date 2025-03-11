@@ -1,8 +1,11 @@
+puts "DEBUG: player.rb loaded"
+
 class Player
   attr_reader :name, :lives
 
   # Initalize player with name and 3 lives
   def initialize(name)
+    puts "DEBUG: Creating Player #{name}"  # Debugging
     @name = name
     @lives = 3
   end
