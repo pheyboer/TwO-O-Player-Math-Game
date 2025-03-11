@@ -29,3 +29,10 @@ while player1.alive? && player2.alive?
 end
 
 
+if player1.alive?
+  Prompt.display("#{player1.name} wins!")
+else
+  Prompt.display("#{player2.name} wins!")
+end
+
+
