@@ -1,9 +1,10 @@
 class Prompt
-  def self.display_message(message)
+  def self.display(message)
     puts message
   end
 
-  def self.get_input
+  def self.ask(question)
+    puts question
     gets.chomp
   end
 end
