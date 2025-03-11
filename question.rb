@@ -1,3 +1,4 @@
+require 'byebug' # byebug debugging
 require_relative 'player' # require player
 
 class Question
@@ -16,7 +17,7 @@ class Question
   end
 
   # check if the answer is correct
-  def correct?(input)
+  def correct_answer?(input)
     input.to_i == @ans
   end
 end

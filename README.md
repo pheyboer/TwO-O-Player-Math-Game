@@ -52,3 +52,7 @@ The game doesn’t end until one of the players loses all their lives. At this p
       - game_over? check if lives remaining for player
       - winner: declares winner and display final score
       - start: runs game loop until player is out of lives
+
+  4. Prompt Class
+    - handles input output
+    
