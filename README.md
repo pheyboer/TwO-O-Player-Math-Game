@@ -33,8 +33,21 @@ The game doesn’t end until one of the players loses all their lives. At this p
     - state:
       - num1: random number 1
       - num2: random number 2
+      - ans: sum of 1 and 2
     - behaviour:
-
+      - generate: 2 random numbers and gets sum
+      - ask_question(player): returns a string with the question
 
 
   3. Game Class
+    - manage game: players, turns, game loop
+    - state:
+      - player1
+      - player2
+      - current_player
+    - behaviour:
+      - switch_turn: switch players
+      - play_round: generate question, send prompt, check answer, update lives
+      - game_over? check if lives remaining for player
+      - winner: declares winner and display final score
+      - start: runs game loop until player is out of lives
