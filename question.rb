@@ -1,4 +1,3 @@
-require 'byebug' # byebug debugging
 require_relative 'player' # require player
 
 class Question
@@ -21,5 +20,3 @@ class Question
     input.to_i == @ans
   end
 end
-
-
